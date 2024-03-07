@@ -10,19 +10,13 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
-#from datetime import datetime as dt
-#import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
-#from imblearn.over_sampling import RandomOverSampler
-#from sklearn.compose import ColumnTransformer
-#from sklearn.impute import SimpleImputer
-#from plotly.subplots import make_subplots
 import plotly.express as px
 import joblib
-#from sklearn.metrics import f1_score
+
 
 df=pd.read_csv('C:/Users/famil/ProjetKickStarter/Kickstarter Campaigns DataSet.csv')
 
