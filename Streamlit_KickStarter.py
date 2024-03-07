@@ -8,7 +8,7 @@ This is a temporary script file.
 import pandas as pd
 #import numpy as np
 import streamlit as st
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -16,7 +16,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 import plotly.express as px
 import joblib
-
+import matplotlib as plt
 
 df=pd.read_csv('C:/Users/famil/ProjetKickStarter/Kickstarter Campaigns DataSet.csv')
 
