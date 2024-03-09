@@ -60,7 +60,7 @@ elif page ==pages[1]:
     st.write("Dimensions initial du Dataframe:")
     st.write(df.shape)
     st.write("Type des données:")
-    st.write(df.dtypes)
+   # st.write(df.dtypes)
     
     # nombre des données par status
     
