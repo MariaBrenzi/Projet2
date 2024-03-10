@@ -6,6 +6,6 @@ Created on Thu Nov 16 10:19:43 2023
 """
 import pandas as pd
 import streamlit as st
-df=pd.read_csv('/mount/src/projet2/Kickstarter Campaigns DataSet.csv')
+df=pd.read_csv('projet2/Kickstarter Campaigns DataSet.csv')
 st.write("Aperçu des données")
 st.dataframe(df.head())
