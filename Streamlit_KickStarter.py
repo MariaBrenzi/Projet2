@@ -17,7 +17,7 @@ import plotly.express as px
 import joblib
 
 
-df=pd.read_csv('/mount/src/projet2/test.csv')
+df=pd.read_csv('/mount/src/projet2/Kickstarter Campaigns DataSet.csv')
 
 
 
