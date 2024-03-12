@@ -10,3 +10,4 @@ import streamlit as st
 df=pd.read_csv('Kickstarter Campaigns DataSet.csv')
 st.write("Aperçu des données")
 st.dataframe(df.head())
+st.write("fin")
